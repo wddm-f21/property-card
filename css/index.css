@@ -24,6 +24,21 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .gallery {
+  margin: 0;
+  display: flex;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  transform: translateX(0%);
+  transition: transform 0.5s;
+}
+.second {
+  transform: translateX(-100%);
+}
+.third {
+  transform: translateX(-200%);
+}
+.gallery img {
   display: block;
   max-width: 100%;
 }
