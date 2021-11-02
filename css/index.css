@@ -1,0 +1,95 @@
+body {
+  font: 1em helvetica, arial, system-ui;
+  background-color: #eee;
+}
+.subheading {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+
+
+.property {
+  position: relative;
+  max-width: 20rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.gallery {
+  display: block;
+  max-width: 100%;
+}
+.favourite {
+  border: none;
+  background: none;
+  padding: 0;
+  line-height: 1;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5em;
+}
+.info {
+  padding: 0 1em;
+}
+.details {
+  margin: 0.5rem 0;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+.cost {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+.address {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+.rooms {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rooms img {
+  height: 1.3em;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.realtor {
+  display: flow-root;
+  background-color: #f3f3f3;
+  padding: 0 1rem;
+}
+.agent {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-style: normal;
+}
+.face {
+  width: 2em;
+  height: 2em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.contact {
+  margin: 0;
+}
+.contact-name {
+  font-weight: 700;
+}
+.contact-num {
+  margin: 0;
+}
