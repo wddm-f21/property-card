@@ -8,10 +8,16 @@ body {
   text-transform: uppercase;
   color: #666;
 }
+
+.properties {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
 .property {
   position: relative;
-  max-width: 20rem;
-  margin: 0 auto;
+  /* max-width: 20rem; */
   border-radius: 0.5rem;
   overflow: hidden;
   background-color: #fff;
@@ -113,4 +119,30 @@ body {
 }
 .contact-num {
   margin: 0;
+}
+
+@media screen and (min-width: 34rem) {
+  body {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 40rem) {
+  .properties {
+    grid-template-columns: repeat(2, 1fr);
+    /* align-items: start; */
+  }
+  .property {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 60rem) {
+  .properties {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80rem;
+    margin: 0 auto;
+  }
 }
